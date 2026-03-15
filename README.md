@@ -23,7 +23,7 @@
 | 03 | Права доступа и владение файлами | [03-permissions.md](chapters/03-permissions.md) |
 | 04 | Текстовые редакторы: nano, основы vim | [04-editors.md](chapters/04-editors.md) |
 | 05 | Coreutils и конвейеры: обработка текста | [05-coreutils.md](chapters/05-coreutils.md) |
-| 06 | Основы bash-скриптов | *в работе* |
+| 06 | Основы bash-скриптов | [06-bash-scripts.md](chapters/06-bash-scripts.md) |
 
 ### Часть II. Системный администратор
 
