@@ -24,3 +24,7 @@
 - Курс переименован: «Основы Linux: от командной строки до веб-сервера»
 - Добавлена глава 11 (11-nginx-php-wordpress.md): клиент-серверная модель и HTTP, установка и настройка nginx (серверный блок), PHP-FPM (Unix-сокет), MariaDB (БД и пользователь), WordPress (скачивание, wp-config.php, права), проверка стека
 - Добавлена глава 12 (12-logging.md): journalctl (приоритеты, ротация журнала), логи nginx (формат access.log и error.log), анализ логов с помощью coreutils (awk/sort/uniq/grep), logrotate (завершение части II)
+
+## 2026-03-17
+
+- Добавлена глава 13 (13-git.md): контроль версий Git — установка и настройка, три зоны (рабочий каталог, индекс, репозиторий), рабочий цикл (init, status, add, commit, diff, log), .gitignore, ветвление и слияние (branch, switch, merge), разрешение конфликтов, удалённый репозиторий GitLab (SSH-ключ, remote, push, pull, clone)
