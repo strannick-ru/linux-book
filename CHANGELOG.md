@@ -20,3 +20,5 @@
 ## 2026-03-16
 
 - Добавлена сборка PDF и EPUB через Pandoc + XeLaTeX: metadata.yaml, Makefile (make pdf, make epub, make all, make clean), .gitignore
+- Добавлена глава 10 (10-networking.md): основы IP-сетей (адреса, маски, порты, TCP/UDP), ip addr/route, ss, ping, curl, DNS (/etc/resolv.conf, /etc/hosts, host), файрвол ufw, практика — настройка сети для проекта
+- Курс переименован: «Основы Linux: от командной строки до веб-сервера»

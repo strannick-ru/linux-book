@@ -1,4 +1,4 @@
-# Linux: от пользователя до DevOps
+# Основы Linux: от командной строки до веб-сервера
 
 Учебный курс для начинающего IT-специалиста, знакомого только с Windows.
 Траектория обучения: **пользователь Linux → системный администратор → начала DevOps**.
@@ -32,7 +32,7 @@
 | 07 | Управление пакетами (apt), репозитории | [07-packages.md](chapters/07-packages.md) |
 | 08 | Пользователи, группы, sudo | [08-users-groups.md](chapters/08-users-groups.md) |
 | 09 | Процессы и сервисы (systemd) | [09-systemd.md](chapters/09-systemd.md) |
-| 10 | Сеть: ip, ss, firewall, основы DNS | *в работе* |
+| 10 | Сеть: ip, ss, firewall, основы DNS | [10-networking.md](chapters/10-networking.md) |
 | 11 | Установка и настройка nginx + PHP-FPM + WordPress | *в работе* |
 | 12 | Логирование и мониторинг | *в работе* |
 
