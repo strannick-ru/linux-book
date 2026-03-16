@@ -33,7 +33,7 @@
 | 08 | Пользователи, группы, sudo | [08-users-groups.md](chapters/08-users-groups.md) |
 | 09 | Процессы и сервисы (systemd) | [09-systemd.md](chapters/09-systemd.md) |
 | 10 | Сеть: ip, ss, firewall, основы DNS | [10-networking.md](chapters/10-networking.md) |
-| 11 | Установка и настройка nginx + PHP-FPM + WordPress | *в работе* |
+| 11 | Установка и настройка nginx + PHP-FPM + WordPress | [11-nginx-php-wordpress.md](chapters/11-nginx-php-wordpress.md) |
 | 12 | Логирование и мониторинг | *в работе* |
 
 ### Часть III. Начала DevOps
