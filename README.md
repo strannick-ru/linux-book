@@ -31,7 +31,7 @@
 |---|------|------|
 | 07 | Управление пакетами (apt), репозитории | [07-packages.md](chapters/07-packages.md) |
 | 08 | Пользователи, группы, sudo | [08-users-groups.md](chapters/08-users-groups.md) |
-| 09 | Процессы и сервисы (systemd) | *в работе* |
+| 09 | Процессы и сервисы (systemd) | [09-systemd.md](chapters/09-systemd.md) |
 | 10 | Сеть: ip, ss, firewall, основы DNS | *в работе* |
 | 11 | Установка и настройка nginx + PHP-FPM + WordPress | *в работе* |
 | 12 | Логирование и мониторинг | *в работе* |
