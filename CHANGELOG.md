@@ -16,3 +16,7 @@
 - Добавлена глава 07 (07-packages.md): пакеты и зависимости, репозитории, apt (search, show, install, upgrade, remove, purge, autoremove), dpkg -l, практика с tree
 - Добавлена глава 08 (08-users-groups.md): пользователи и группы, /etc/passwd, /etc/shadow, /etc/group, adduser/deluser, usermod, su, sudo, visudo и /etc/sudoers, практика с пользователем webmaster и группой webdev
 - Добавлена глава 09 (09-systemd.md): процессы (ps, pstree, top, kill, сигналы, фоновые задачи), systemd, systemctl, journalctl, устройство unit-файлов, практика — сервис и таймер для backup.sh
+
+## 2026-03-16
+
+- Добавлена сборка PDF и EPUB через Pandoc + XeLaTeX: metadata.yaml, Makefile (make pdf, make epub, make all, make clean), .gitignore

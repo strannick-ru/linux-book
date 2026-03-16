@@ -61,6 +61,9 @@
 ```
 CONTEXT.md              — описание проекта, цели, структура курса
 CHANGELOG.md            — история изменений
+metadata.yaml           — метаданные книги для Pandoc (заголовок, автор, шрифты, настройки PDF/EPUB)
+Makefile                — сборка PDF и EPUB (make pdf, make epub, make all, make clean)
+.gitignore              — исключения для git (build/)
 chapters/               — каталог с этапами курса
   00-preface.md
   01-intro.md
@@ -79,6 +82,9 @@ chapters/               — каталог с этапами курса
   14-docker.md
   15-docker-compose.md
   16-cicd.md
+build/                  — результаты сборки (не в git)
+  linux-book.pdf
+  linux-book.epub
 ```
 
 ## Рабочий процесс

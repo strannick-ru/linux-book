@@ -1,0 +1,28 @@
+---
+title: "Linux: от пользователя до DevOps"
+subtitle: "Учебный курс"
+author: "Чайкин Евгений"
+lang: ru
+mainfont: "PT Serif"
+sansfont: "PT Sans"
+monofont: "Fira Code"
+fontsize: 11pt
+geometry: "a4paper, margin=2.5cm"
+toc: true
+toc-depth: 2
+toc-title: "Содержание"
+colorlinks: true
+linkcolor: "blue!70!black"
+urlcolor: "blue!70!black"
+highlight-style: tango
+documentclass: report
+numbersections: false
+header-includes: |
+  \usepackage{fvextra}
+  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\},samepage=true}
+  \usepackage{float}
+  \floatplacement{table}{H}
+  \widowpenalty=10000
+  \clubpenalty=10000
+  \raggedbottom
+---
