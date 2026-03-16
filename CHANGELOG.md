@@ -14,3 +14,4 @@
 - Добавлена глава 05 (05-coreutils.md): перенаправление ввода-вывода, конвейеры, утилиты (wc, sort, uniq, cut, grep, sed, awk), регулярные выражения, практика на логах nginx
 - Добавлена глава 06 (06-bash-scripts.md): переменные окружения и PATH, shebang, переменные, аргументы, условия, циклы, коды возврата, скрипт бэкапа
 - Добавлена глава 07 (07-packages.md): пакеты и зависимости, репозитории, apt (search, show, install, upgrade, remove, purge, autoremove), dpkg -l, практика с tree
+- Добавлена глава 08 (08-users-groups.md): пользователи и группы, /etc/passwd, /etc/shadow, /etc/group, adduser/deluser, usermod, su, sudo, visudo и /etc/sudoers, практика с пользователем webmaster и группой webdev
