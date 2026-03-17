@@ -28,3 +28,4 @@
 ## 2026-03-17
 
 - Добавлена глава 13 (13-git.md): контроль версий Git — установка и настройка, три зоны (рабочий каталог, индекс, репозиторий), рабочий цикл (init, status, add, commit, diff, log), .gitignore, ветвление и слияние (branch, switch, merge), разрешение конфликтов, удалённый репозиторий GitLab (SSH-ключ, remote, push, pull, clone)
+- Добавлена глава 14 (14-docker.md): контейнеризация — врезка форматы конфигов (INI, JSON, YAML), установка Docker из официального репозитория, образы и контейнеры (pull, run, ps, stop, rm), Docker Hub, проброс портов и volumes, Dockerfile (FROM, COPY, EXPOSE), .dockerignore, управление контейнерами (logs, exec, inspect, prune)
