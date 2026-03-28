@@ -25,6 +25,9 @@ header-includes: |
   \AtBeginEnvironment{longtable}{\small}
   \usepackage{float}
   \floatplacement{table}{H}
+  \usepackage{enumitem}
+  \setlist[itemize]{beginpenalty=10000}
+  \setlist[enumerate]{beginpenalty=10000}
   \widowpenalty=10000
   \clubpenalty=10000
   \raggedbottom
