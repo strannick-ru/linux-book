@@ -19,7 +19,10 @@ documentclass: report
 numbersections: false
 header-includes: |
   \usepackage{fvextra}
-  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\},samepage=true}
+  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,breakanywhere,commandchars=\\\{\},fontsize=\small,samepage=true}
+  \RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines,breakanywhere,fontsize=\small,samepage=true}
+  \usepackage{etoolbox}
+  \AtBeginEnvironment{longtable}{\small}
   \usepackage{float}
   \floatplacement{table}{H}
   \widowpenalty=10000
