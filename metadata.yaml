@@ -22,12 +22,21 @@ header-includes: |
   \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,breakanywhere,commandchars=\\\{\},fontsize=\small,samepage=true}
   \RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines,breakanywhere,fontsize=\small,samepage=true}
   \usepackage{etoolbox}
+  \usepackage{needspace}
+  \BeforeBeginEnvironment{Shaded}{\par\nopagebreak\needspace{5\baselineskip}}
+  \BeforeBeginEnvironment{verbatim}{\par\nopagebreak\needspace{5\baselineskip}}
   \AtBeginEnvironment{longtable}{\small}
   \usepackage{float}
   \floatplacement{table}{H}
   \usepackage{enumitem}
   \setlist[itemize]{beginpenalty=10000}
   \setlist[enumerate]{beginpenalty=10000}
+  \newfontfamily\fallbackserif{DejaVu Serif}
+  \newfontfamily\fallbackmono{DejaVu Sans Mono}
+  \usepackage{newunicodechar}
+  \newunicodechar{→}{{\fallbackserif →}}
+  \newunicodechar{✔}{{\fallbackmono ✔}}
+  \newunicodechar{✗}{{\fallbackmono ✗}}
   \widowpenalty=10000
   \clubpenalty=10000
   \raggedbottom
