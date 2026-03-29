@@ -478,7 +478,7 @@ Location: http://localhost/wp-admin/install.php
 
 ```
                     ┌─────────────────────────────────────────┐
-                    │         Docker Compose сеть              │
+                    │         Docker Compose сеть             │
                     │                                         │
 Браузер ──► nginx:80 ──► wordpress:9000 (PHP-FPM) ──► db:3306 │
                     │                                (MariaDB)│
