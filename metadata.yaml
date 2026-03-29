@@ -23,6 +23,9 @@ header-includes: |
   \RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines,breakanywhere,fontsize=\small,samepage=true}
   \usepackage{etoolbox}
   \usepackage{needspace}
+  \pretocmd{\section}{\needspace{10\baselineskip}}{}{}
+  \pretocmd{\subsection}{\needspace{8\baselineskip}}{}{}
+  \pretocmd{\subsubsection}{\needspace{8\baselineskip}}{}{}
   \BeforeBeginEnvironment{Shaded}{\par\nopagebreak\needspace{5\baselineskip}}
   \BeforeBeginEnvironment{verbatim}{\par\nopagebreak\needspace{5\baselineskip}}
   \AtBeginEnvironment{longtable}{\small}
