@@ -4,8 +4,14 @@ subtitle: "Базовый курс на основе Debian"
 author: "Чайкин Евгений"
 lang: ru
 mainfont: "PT Serif"
+mainfontoptions:
+  - "RawFeature=-liga;-dlig"
 sansfont: "PT Sans"
+sansfontoptions:
+  - "RawFeature=-liga;-dlig"
 monofont: "Fira Code"
+monofontoptions:
+  - "RawFeature=-calt;-liga;-dlig"
 fontsize: 11pt
 geometry: "a4paper, margin=2.5cm"
 toc: true
@@ -23,11 +29,13 @@ header-includes: |
   \RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines,breakanywhere,fontsize=\small,samepage=true}
   \usepackage{etoolbox}
   \usepackage{needspace}
-  \pretocmd{\section}{\needspace{10\baselineskip}}{}{}
-  \pretocmd{\subsection}{\needspace{8\baselineskip}}{}{}
-  \pretocmd{\subsubsection}{\needspace{8\baselineskip}}{}{}
-  \BeforeBeginEnvironment{Shaded}{\par\nopagebreak\needspace{5\baselineskip}}
-  \BeforeBeginEnvironment{verbatim}{\par\nopagebreak\needspace{5\baselineskip}}
+  \pretocmd{\section}{\needspace{12\baselineskip}}{}{}
+  \pretocmd{\subsection}{\needspace{10\baselineskip}}{}{}
+  \pretocmd{\subsubsection}{\needspace{10\baselineskip}}{}{}
+  \BeforeBeginEnvironment{Shaded}{\Needspace*{8\baselineskip}}
+  \AfterEndEnvironment{Shaded}{\par\nopagebreak[2]}
+  \BeforeBeginEnvironment{verbatim}{\Needspace*{8\baselineskip}}
+  \AfterEndEnvironment{verbatim}{\par\nopagebreak[2]}
   \AtBeginEnvironment{longtable}{\small}
   \usepackage{float}
   \floatplacement{table}{H}
@@ -42,5 +50,6 @@ header-includes: |
   \newunicodechar{✗}{{\fallbackmono ✗}}
   \widowpenalty=10000
   \clubpenalty=10000
+  \brokenpenalty=10000
   \raggedbottom
 ---
