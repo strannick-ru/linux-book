@@ -25,17 +25,17 @@ documentclass: report
 numbersections: false
 header-includes: |
   \usepackage{fvextra}
-  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,breakanywhere,commandchars=\\\{\},fontsize=\small,samepage=true}
-  \RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines,breakanywhere,fontsize=\small,samepage=true}
+  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,breakanywhere,commandchars=\\\{\},fontsize=\small}
+  \RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines,breakanywhere,fontsize=\small}
   \usepackage{etoolbox}
   \usepackage{needspace}
   \pretocmd{\section}{\needspace{12\baselineskip}}{}{}
   \pretocmd{\subsection}{\needspace{10\baselineskip}}{}{}
   \pretocmd{\subsubsection}{\needspace{10\baselineskip}}{}{}
-  \BeforeBeginEnvironment{Shaded}{\Needspace*{8\baselineskip}}
-  \AfterEndEnvironment{Shaded}{\par\nopagebreak[2]}
-  \BeforeBeginEnvironment{verbatim}{\Needspace*{8\baselineskip}}
-  \AfterEndEnvironment{verbatim}{\par\nopagebreak[2]}
+  \BeforeBeginEnvironment{Shaded}{\par\nopagebreak\vspace{0.5\baselineskip}}
+  \AfterEndEnvironment{Shaded}{\par\vspace{0.5\baselineskip}}
+  \BeforeBeginEnvironment{verbatim}{\par\nopagebreak\vspace{0.5\baselineskip}}
+  \AfterEndEnvironment{verbatim}{\par\vspace{0.5\baselineskip}}
   \AtBeginEnvironment{longtable}{\small}
   \usepackage{float}
   \floatplacement{table}{H}

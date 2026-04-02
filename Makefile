@@ -15,6 +15,7 @@ $(PDF): metadata.yaml $(CHAPTERS) | $(BUILD)
 	pandoc $(PANDOC_COMMON) \
 		--pdf-engine=xelatex \
 		--resource-path=.:chapters \
+		--lua-filter=keep-code-together.lua \
 		-o $@ $(CHAPTERS)
 
 $(EPUB): metadata.yaml $(CHAPTERS) | $(BUILD)
