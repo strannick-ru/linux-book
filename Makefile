@@ -11,7 +11,7 @@ pdf: $(PDF)
 
 epub: $(EPUB)
 
-$(PDF): metadata.yaml $(CHAPTERS) | $(BUILD)
+$(PDF): metadata.yaml keep-code-together.lua $(CHAPTERS) | $(BUILD)
 	pandoc $(PANDOC_COMMON) \
 		--pdf-engine=xelatex \
 		--resource-path=.:chapters \

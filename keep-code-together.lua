@@ -12,3 +12,13 @@ function Para(el)
         end
     end
 end
+
+function Header(el)
+    -- If the header text is "Итоги", insert a \clearpage before it
+    if pandoc.utils.stringify(el) == "Итоги" then
+        return {
+            pandoc.RawBlock('latex', '\\clearpage'),
+            el
+        }
+    end
+end
